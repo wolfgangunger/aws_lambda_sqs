@@ -1,0 +1,14 @@
+com\unw\demo\TestContext$1.class
+com\unw\demo\TestUtils$DateTimeDeserializer.class
+com\unw\demo\TestContext$TestLogger.class
+com\unw\demo\TestUtils$DynamodbEventMixin$StreamRecordMixin.class
+com\unw\demo\TestUtils$DateTimeSerializer.class
+com\unw\demo\TestUtils$DynamodbEventMixin$AttributeValueMixIn.class
+com\unw\demo\LambdaFunctionHandlerTest.class
+com\unw\demo\TestUtils$1.class
+com\unw\demo\TestUtils$UpperCaseRecordsPropertyNamingStrategy.class
+com\unw\demo\TestUtils.class
+com\unw\demo\TestContext.class
+com\unw\demo\TestUtils$DynamodbEventMixin$RecordMixin.class
+com\unw\demo\TestUtils$TestJacksonMapperModule.class
+com\unw\demo\TestUtils$DynamodbEventMixin.class
