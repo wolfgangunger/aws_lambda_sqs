@@ -16,13 +16,14 @@ import software.amazon.awssdk.services.sqs.SQSClient;
  */
 public class LambdaFunctionHandler implements RequestHandler<Object, String> {
 	
-	private static String QUEUE_NAME = "queue1";
+	private static String QUEUE_NAME = "ppQueue1"; 
 
     public LambdaFunctionHandler() {}
 
     @Override
     public String handleRequest(Object input, Context context) {
         context.getLogger().log("Received input: " + input);
+        context.getLogger().log("Received context: " + context);
 		SQSClient sqsClient = SQSClient.builder().build();
 		String message = input.toString();
 
